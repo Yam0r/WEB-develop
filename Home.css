@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+input[type="search"]::-webkit-search-cancel-button {
+    appearance: none;
+    display: none;
+  }
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Home_Page{
+    font-family: 'Roboto', sans-serif;
+    padding: 0 120px;
+    background-color: #F5F5F5;
+}
+
+input[type="search"]{
+    background-color: #F5F5F5;
+}
+
+.logo_block{
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+.logo_block p{
+    width: 57px;
+}
+
+.search-label{
+    gap: 3px;
+    border: 2px solid rgb(190, 190, 190);
+    max-width: 100%;
+    width: 55%;
+    padding: 10px 11px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.search-label i{
+    opacity: 0.5;
+}
+.search-label input{
+    border: none;
+    width: 100%;
+    height: 100%;
+
+}
+.search-label input:focus{
+    border: none;
+    outline: none;
+}
+
+     
+.buttom_block button{
+    align-items: center;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#header_button_first{
+    display: inline-flex;
+    padding: 8px 16px;
+    background:#1890FF;
+    color: #fff;
+}
+#header_button_second{
+    display: inline-flex;
+    padding: 8px 16px;
+    border: 1px solid #8C8C8C;
+    background:#fff;
+    color: #8C8C8C;
+}
+.block_online-service{
+    background-color: #FFF1B8;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.block_online-service_text{
+    margin: 68px 71px;
+    flex-direction: column !important;
+}
+
+.top_cards{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+#search-label_second{
+    border: 2px solid rgb(190, 190, 190);
+    max-width: 100%;
+    height: 34px;
+    width: 25%;
+    padding: 2px 4px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#search-label_second i{
+    opacity: 0.5;
+}
+#search-label_second input{
+    border: none;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+
+}
+#search-label_second input:focus{
+    border: none;
+    outline: none;
+}
+
+.restaurants_card{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+    display: flex;
+}
+
+.card{
+    flex-direction: column;
+}
+
+.card{
+    margin-bottom: -5px;
+    border-radius: 10px;
+}
+
+.main_info{
+    background-color: #fff;
+    
+}
+
+.main_info > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_info > p {
+    background-color: #000;
+    color: #fff;
+    padding: 1px 8px;
+    
+}
+
+.main_info h1{
+    margin: 0;    
+}
+
+.info{
+    color: #FFC107;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.under_star{
+    color: #8C8C8C;
+}
+
+
+footer{
+    margin-top: 90px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+}
+  
+.navigation li {
+    margin-right: 20px; /* Добавляем отступ между пунктами меню */
+    
+}
+  
+.navigation a {
+    text-decoration: none; /* Убираем подчеркивание ссылок */
+    color: #333; /* Цвет текста ссылок */
+    font-weight: bold; /* Жирный шрифт */
+    color: #595959;
+  }
+  
+.navigation a:hover {
+    color: #000; /* Цвет текста при наведении */
+  }
+  
