@@ -90,9 +90,13 @@ input[type="search"]{
 
 .top_cards{
     align-items: center;
+    gap: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
+
+
+
 #search-label_second{
     border: 2px solid rgb(190, 190, 190);
     max-width: 100%;
@@ -126,30 +130,27 @@ input[type="search"]{
     display: flex;
 }
 
-.restaurants_card a{
-    text-decoration: none;
-    color: #000;
+#star{
+    color: rgb(231, 196, 0);
 }
-
 .card{
     flex-direction: column;
-}
-
-.card{
     margin-bottom: -5px;
     border-radius: 10px;
 }
 
-.main_info{
-    background-color: #fff;
-    
+.main_info{    
+    background-color: #fff;    
 }
 
-.main_info > div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.main_info p{    
+    color: #8C8C8C;
 }
+.main_info h1{
+    font-size: 24px;
+    margin-left: 24px !important;
+}
+
 
 .main_info > p {
     background-color: #000;
@@ -163,11 +164,22 @@ input[type="search"]{
 }
 
 .info{
-    color: #FFC107;
+    color: #000;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0 0 10px 24px;
 }
+
+#main_button_second{
+    display: inline-flex;
+    padding: 8px 16px;
+    border: none;
+    background: #1890FF;
+    color: #fff;
+}
+
 .under_star{
     color: #8C8C8C;
+    display: flex !important;
 }
 
 
